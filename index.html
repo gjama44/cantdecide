@@ -3,19 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Can't decide Office</title>
+  <title>can't-decide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <h1>can't-decide</h1>
 
   <div id="seasons"></div>
   <p id="tally"></p>
 
   <button id="assign">Assign my episode</button>
-  <div id="result"></div>
+  <button id="again" hidden>Watch another</button>
 
-  <button id="again">Watch another</button>
+  <div id="result" hidden>
+    <p id="slug"></p>
+    <h2 id="title"></h2>
+    <p id="note"></p>
+  </div>
 
   <script src="episodes.js"></script>
   <script src="script.js"></script>

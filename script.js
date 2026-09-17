@@ -67,14 +67,19 @@ document.getElementById("assign").addEventListener("click", () => {
 
   save(record);
   showResult(record);
+
+  document.getElementById("again").hidden = !hasToday;
+  
 });
 
 function showResult(record) {
   const e = record.episode;
   document.getElementById("result").textContent =
   "S" + e[0] + "E" + e[1] + " — " + e[3];
-  
+
 };
+
+
 paint();
 
 const saved = load();
