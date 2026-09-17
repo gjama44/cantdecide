@@ -1,1 +1,17 @@
 body { font-family: system-ui, sans-serif; margin: 2rem; }
+
+#seasons button {
+  padding: 12px 16px;
+  margin-right: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  background: #eee;
+  color: #777;
+  border: 1px solid #ccc;
+}
+
+#seasons button[aria-pressed="true"] {
+  background: #1B4D7A;
+  color: white;
+  border-color: #1B4D7A;
+}
