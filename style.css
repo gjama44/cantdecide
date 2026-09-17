@@ -22,9 +22,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  text-align: center;
+}
+
 h1, #seasons, #tally, #assign, #again, #result {
   max-width: 540px;
   margin-inline: auto;
+  text-align: center;
 }
 
 h1 {
